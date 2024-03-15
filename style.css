@@ -2,6 +2,57 @@ body {
   font: 16px/1.5 sans-serif;
 }
 
+
+
+.help {
+  width: 100%;
+  max-width: 330px;
+  border: 2px solid #f9eaea;
+  border-radius: 8px;
+  background-color: #d8d8d8;
+  position: fixed;
+  right: 0;
+
+  top: 2px;
+}
+
+.help input {
+  width: 100%;
+  max-width: 110px;
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 8px;
+  background-color: #303932;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+
+textarea {
+  background-color: #303932;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 2px;
+  padding: 4px 4px;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.email {
+  margin-bottom: 10px;
+}
+
 .modal {
   width: 50vw;
   height: 40vh;
@@ -9,6 +60,8 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: relative;
+  left: 200px;
 }
 
 button {
@@ -20,11 +73,18 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  right: 0px;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  bottom: 0;
+
+
+  position: absolute;
+  right: 410px;
 }
 
 /* sem přijdou tvoje styly */
